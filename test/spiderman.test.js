@@ -1,3 +1,5 @@
+const Spiderman = require("../app/spiderman");
+
 describe("Test Suite Dummy Description", () => {
   test("Case 1 Dummy", () => {
     const resultOfSomething = 1 + 2;
