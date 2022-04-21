@@ -22,4 +22,17 @@ describe("Unit test for spiderman class", () => {
     expect(AndrewGarfield.movies).toBe(2);
     expect(AndrewGarfield.studio).toBe("Sony");
   });
+
+  test("Use Method GetInfo", () => {
+    const tomHolland = new Spiderman(
+      "Spiderman Marvel",
+      25,
+      "Tom Holland",
+      5,
+      "Marvel"
+    );
+    expect(tomHolland.getInfo()).toBe(
+      "Hey, I'm Tom Holland from Marvel studio"
+    );
+  });
 });
